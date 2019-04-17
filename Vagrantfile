@@ -5,7 +5,7 @@ Vagrant.configure("2")  do |config|
 
   config.vm.provider "virtualbox" do |vp|
       vp.name = "PuppetMaster"
-      vp.memory = "1024"
+      vp.memory = "2048"
   end
 
   config.vm.provision "shell" do |p|
